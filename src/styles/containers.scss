@@ -1,0 +1,113 @@
+$primary-color: #804098;
+$grey-color: #f4f5f9;
+$success-color: #1abc9c; // Also for highlight
+$info-color: #007fb2;
+$white-color: #fff;
+$default-black-color: #4a4a4a;
+
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 93%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #464a4c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+}
+
+.section-left {
+  display: inline-block;
+  width: 13.3%;
+}
+
+.section-mid {
+  display: inline-block;
+  width: 73.3%;
+}
+
+.section-right {
+  display: inline-block;
+  width: 13.3%;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-success {
+  color: $white-color;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.submit-button {
+  margin-bottom: 18px;
+  margin-top: 10px;
+  width: 213px;
+  border-radius: 40px;
+  border: none;
+  background-color: #7ed321;
+  cursor: pointer;
+  font-size: 14px;
+  height: 47px;
+}
+
+.header {
+  background-color: $white-color !important;
+
+  .title {
+    color: $primary-color !important;
+  }
+  span {
+    color: $default-black-color !important;
+  }
+}
+
+.messages-container {
+  background-color: $grey-color !important;
+}
+
+.sender {
+  background-color: $white-color !important;
+}
+
+.response {
+  background-color: $white-color !important;
+}

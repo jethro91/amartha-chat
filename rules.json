@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "chat": {
+      ".read": "auth != null",
+      ".indexOn": ["stamp"],
+      "$chatId": {
+        ".write": "auth != null"
+      }
+    },
+    "user": {
+      "$userId": {
+        ".read": "auth != null && auth.uid == $userId",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    },
+    "$etc": {
+      ".read": false,
+      ".write": false
+    }
+  }
+}

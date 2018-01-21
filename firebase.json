@@ -1,0 +1,25 @@
+{
+  "database": {
+    "rules": "rules.json"
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**",
+      "functions/**",
+      "config.txt",
+      "deploy",
+      "deploy-rules",
+      "genrules",
+      "package.json",
+      "README.md",
+      "rules-storage.yaml",
+      "rules.bolt",
+      "rules.json"
+    ]
+  }
+}
